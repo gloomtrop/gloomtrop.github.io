@@ -20,7 +20,7 @@ title                    : "Axel Rooth Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Axel Rooth"
-description              : "Welcome to my portfolio! Hello, I am an aspiring machine learning engineer with a strong desire to use technology to make a positive impact in the world. I have soon a MSc in Machine Learning and have gained a solid understanding of machine learning principles and techniques. I am constantly seeking to learn more and expand my skills in the field. I am a quick learner, highly motivated and dedicated to delivering high-quality results. I have a passion for innovation and I am excited to be part of the AI industry and contribute to its growth."
+description              : "Welcome to my portfolio!"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -106,7 +106,7 @@ analytics:
 author:
   name             : "Axel Rooth"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Music to AI."
+  bio              : "Hello, I am an aspiring machine learning engineer with a strong desire to use technology to make a positive impact in the world. I have soon a MSc in Machine Learning and have gained a solid understanding of machine learning principles and techniques. I am constantly seeking to learn more and expand my skills in the field. I am a quick learner, highly motivated and dedicated to delivering high-quality results. I have a passion for innovation and I am excited to be part of the AI industry and contribute to its growth."
   location         : "Planet Earth"
   email            :
   links:
