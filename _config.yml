@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Axel Rooth"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an aspiring machine learning engineer with ML interests in music, audio, personalization and NLP. The best future ML product for me would be a headset where you can understand and speak to each other using different languages."
   location         : "Planet Earth"
   email            :
