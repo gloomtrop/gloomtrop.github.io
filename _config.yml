@@ -304,9 +304,9 @@ defaults:
       author_profile: true
   # _portfolio
   - scope:
-      path: ""
+      path: "_portfolio"
       type: portfolio
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       share: true
