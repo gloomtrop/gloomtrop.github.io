@@ -642,8 +642,3 @@ The result suggest that the new implemented model of a Random Forest Classifier 
 ## Discussion and Limitations
 
 In this project, the author showed that the classification of chinese instruments can be improved using 30 bands of MFCCs. During the projects explorative phase, different feature extraction methods were choosen but with much worse accuracy in the end. Therefore, the author only provided the MFCC classification which the authors from the original paper also provided. However, there are some quite important limitations to this project. Firstly, the dataset which has been used is quite small which could indicate that the model is not that greeat at generalize to new data of other songs. The testdata in itself are good but it only accounts for 5 audio files which is very small for machine learning standard. Secondly, if the dataset was larger one the deep learning approach could have been more suited but that remains unclear. In the light of more research that question may be answered. One further acknowledgement is in what aspect this project could impact the music informatics space. The conclusion to this is that because of the small dataset the contribution is quite small. For further research one could aim to make a model which classifies audio with multiple instruments or a model which can classify all known instruments that exists both in western music, eastern and the rest of the world. Of course an ambitious feat but nonetheless important for the music informatic research space to extend wider to new grounds.
-
-
-```python
-
-```
