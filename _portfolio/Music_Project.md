@@ -101,7 +101,7 @@ The steps to extract the MFCC are:
 1. Break the audio signal into overlapping frames
 2. Compute the Short-Time Fourier Transform on the frames
 
-$STFT\{x[n]\}(m,\omega)\equiv X(m,\omega) = \sum_{n=-\infty}^{\infty} x[n]w[n-m]e^{-i \omega n}$
+$$STFT\{x[n]\}(m,\omega)\equiv X(m,\omega) = \sum_{n=-\infty}^{\infty} x[n]w[n-m]e^{-i \omega n}$$
 
 3. Apply the mel filterbank to the power spectra, sum the energy in each filter. Where the frequencies are in th mel-scale. $m = 2595 \log_{10}\left(1 + \frac{f}{700}\right)$
 4. Take the logarithm of all filterbank energies.
