@@ -273,7 +273,7 @@ fig.show()
 ```
 
 
-![png](Music_Project_files/Music_Project_26_0.png)
+![png](/assets/images/Music_Project_26_0.png)
 
 
 
@@ -286,7 +286,7 @@ fig.show()
 ```
 
 
-![png](Music_Project_files/Music_Project_27_0.png)
+![png](/assets/images/Music_Project_27_0.png)
 
 
 ## ML models and classification
@@ -359,7 +359,7 @@ knn_training(traindata_mfcc_20, testdata_mfcc_20, "mfcc")
 
 
 
-![png](Music_Project_files/Music_Project_32_1.png)
+![png](/assets/images/Music_Project_32_1.png)
 
 
 ###CNN
@@ -594,7 +594,7 @@ neural_training(CNNmodel(), "CNN_mfcc", train_dataloader_mfcc, test_dataloader_m
 
 
 
-![png](Music_Project_files/Music_Project_36_51.png)
+![png](/assets/images/Music_Project_36_51.png)
 
 
 ### Random Forest (Own model)
@@ -625,7 +625,7 @@ plt.savefig('RF_ConfusionMatrix.pdf')
 
 
 
-![png](Music_Project_files/Music_Project_38_1.png)
+![png](/assets/images/Music_Project_38_1.png)
 
 
 ## Results
