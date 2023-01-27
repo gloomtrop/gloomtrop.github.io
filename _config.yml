@@ -150,11 +150,7 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url:
-      
-collections:
-  portfolio:
-    output: true
-    permalink: /:collection/:projects/
+     
 
 # Reading Files
 include:
