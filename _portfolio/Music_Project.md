@@ -1,4 +1,7 @@
-#Chinese Instrument Classification using MFCC extraction
+---
+title: "Chinese Instrument Classification using MFCC extraction"
+---
+
 ##### Author: Axel Rooth
 ##### Course: Music Informatics DT2470
 
