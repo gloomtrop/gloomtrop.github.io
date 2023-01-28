@@ -1,6 +1,9 @@
 ---
 title: "LSTM Decoder-Encoder Language model"
 excerpt: "Project from the KTH course Language Engineering (in Swedish)"
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 header:
   image: /assets/images/seq2seq.svg
   teaser: assets/images/seq2seq.svg
