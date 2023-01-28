@@ -4,11 +4,14 @@ excerpt: ""
 header:
   image: /assets/images/riedia_images/riedia_front.png
   teaser: assets/images/riedia_images/riedia_front.png
+  actions:
+    - label: "View website"
+      url: "https://www.riedia.com/"
 sidebar:
   - title: "Role"
     text: "Machine Learning Engineer"
   - title: "Responsibilities"
-    text: "Researched, developed and implemented a news recommender system"
+    text: "Researched, developed and implemented a news recommender system for Riedia"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
