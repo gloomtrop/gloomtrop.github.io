@@ -24,13 +24,13 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/Namnlös.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/model1.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/model2.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/leaderboard.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/dataset.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/results1.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/results2.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/development.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/bandit1.png)
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/bandit2.png)
+![alt1](/assets/images/riedia_images/Namnlös.png)
+![alt2](/assets/images/riedia_images/model1.png)
+![alt3](/assets/images/riedia_images/model2.png)
+![alt4](/assets/images/riedia_images/leaderboard.png)
+![alt5](/assets/images/riedia_images/dataset.png)
+![alt6](/assets/images/riedia_images/results1.png)
+![alt7](/assets/images/riedia_images/results2.png)
+![alt8](/assets/images/riedia_images/development.png)
+![alt9](/assets/images/riedia_images/bandit1.png)
+![alt10](/assets/images/riedia_images/bandit2.png)
