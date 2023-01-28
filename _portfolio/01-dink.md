@@ -1,6 +1,9 @@
 ---
 title: "Dink - The financial food solution"
 excerpt: "Created by five ambitious KTH students who had a vision to minimize your expenditures to the maximum ! 👐"
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 header:
   image: /assets/images/dink_front.png
   teaser: assets/images/dink_front.png
