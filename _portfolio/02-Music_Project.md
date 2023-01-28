@@ -24,8 +24,8 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-##### Author: Axel Rooth
-##### Course: Music Informatics DT2470
+**Author: Axel Rooth**
+**Course: Music Informatics DT2470**
 
 This project is based on the paper with the accompanied dataset which the author provides. https://arxiv.org/pdf/2108.08470v2.pdf. The data contains 11 chinese instruments with 5 audio files each. The project's aim was to achieve a higher performance than existing methods. This was achieved using the Random Forest algorithm. 
 
