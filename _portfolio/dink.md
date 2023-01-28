@@ -13,24 +13,31 @@ gallery:
   - url: /assets/images/screenshot-1.png
     image_path: assets/images/screenshot-1.png
     alt: "placeholder image 1"
+    layout: "third"
   - url: /assets/images/screenshot-2.png
     image_path: assets/images/screenshot-2.png
     alt: "placeholder image 2"
+    layout: "third"
   - url: /assets/images/screenshot-3.png
     image_path: assets/images/screenshot-3.png
     alt: "placeholder image 3"
+    layout: "third"
   - url: /assets/images/screenshot-4.png
     image_path: assets/images/screenshot-4.png
     alt: "placeholder image 4"
+    layout: "third"
   - url: /assets/images/screenshot-5.png
     image_path: assets/images/screenshot-5.png
     alt: "placeholder image 5"
+    layout: "third"
   - url: /assets/images/screenshot-6.png
     image_path: assets/images/screenshot-6.png
     alt: "placeholder image 6"
+    layout: "third"
   - url: /assets/images/screenshot-7.png
     image_path: assets/images/screenshot-7.png
     alt: "placeholder image 7"
+    layout: "third"
     
 ---
 
