@@ -2,8 +2,8 @@
 title: "Chinese Instrument Classification using MFCC extraction"
 excerpt: "Project from the KTH course Music Informatics"
 header:
-  image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
+  image: /assets/images/a-look-at-traditional-chinese-music-1200x630.jpeg
+  teaser: assets/images/a-look-at-traditional-chinese-music-1200x630.jpeg
 sidebar:
   - title: "Role"
     text: "Student"
