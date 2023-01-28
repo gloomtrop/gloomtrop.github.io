@@ -31,7 +31,7 @@ The team at Riedia in their start-up phase used a Content-based filter to find s
 ![png](/assets/images/riedia_images/recommender.png)
 
 ## New era of recommender systems leverage the dynamic nature of Deep learning
-One type of news recommender system proposed by research is a click predictor. Probability over $0.5 := "User is interested in the news article"$ while below $0.5 := "User is not interested in the news article"$. Furthermore, the model is feeded with articles which the user have read and one candidate news article. These articles are then encoded into a representation vector. How to represent these vector is by combining the title and the body using Glove embeddings for each word. 
+One type of news recommender system proposed by research is a click predictor. Probability over $0.5 := "Interested"$ while below $0.5 :=$ $"Not Interested"$. Furthermore, the model is feeded with articles which the user have read and one candidate news article. These articles are then encoded into a representation vector. How to represent these vector is by combining the title and the body using Glove embeddings for each word. 
 ![png](/assets/images/riedia_images/model1.png)
 
 ### ”Neural News Recommendation with Multi-Head Self-Attention”
