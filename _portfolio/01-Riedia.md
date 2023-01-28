@@ -5,7 +5,7 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 header:
-  image: /assets/images/riedia_images/riedia_front.png
+  overlay_image: /assets/images/riedia_images/riedia_front.png
   teaser: assets/images/riedia_images/riedia_front.png
   actions:
     - label: "View website"
