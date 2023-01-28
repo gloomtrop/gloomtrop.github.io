@@ -33,4 +33,4 @@ gallery:
 ![png](/assets/images/riedia_images/results2.png)
 ![png](/assets/images/riedia_images/development.png)
 ![png](/assets/images/riedia_images/bandit1.png)
-![png](/assets/images/riedia_images/bandit2.png)
+![jpg](/assets/images/riedia_images/bandit2.jpg)
