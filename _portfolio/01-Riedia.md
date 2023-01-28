@@ -24,7 +24,7 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-![png](/assets/images/riedia_images/Namnlös.png)
+![png](/assets/images/riedia_images/recommender.png)
 ![png](/assets/images/riedia_images/model1.png)
 ![png](/assets/images/riedia_images/model2.png)
 ![png](/assets/images/riedia_images/leaderboard.png)
