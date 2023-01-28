@@ -1,6 +1,9 @@
 ---
 title: "News Recommendation system at Riedia"
 excerpt: "Bringing Swedish news to internationals using next generation machine translation🆎🉐"
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 header:
   image: /assets/images/riedia_images/riedia_front.png
   teaser: assets/images/riedia_images/riedia_front.png
