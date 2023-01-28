@@ -21,6 +21,9 @@ gallery:
   - url: /assets/images/screenshot-4.png
     image_path: assets/images/screenshot-4.png
     alt: "placeholder image 4"
+  - url: /assets/images/screenshot-5.png
+    image_path: assets/images/screenshot-5.png
+    alt: "placeholder image 5"
   - url: /assets/images/screenshot-6.png
     image_path: assets/images/screenshot-6.png
     alt: "placeholder image 6"
