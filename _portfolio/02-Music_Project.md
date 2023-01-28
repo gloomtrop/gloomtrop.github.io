@@ -1,6 +1,9 @@
 ---
 title: "Chinese Instrument Classification using MFCC extraction"
 excerpt: "Project from the KTH course Music Informatics"
+toc: true
+toc_label: "My Table of Contents"
+toc_icon: "cog"
 header:
   image: /assets/images/a-look-at-traditional-chinese-music-1200x630.jpeg
   teaser: assets/images/a-look-at-traditional-chinese-music-1200x630.jpeg
