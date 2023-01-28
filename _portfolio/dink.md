@@ -39,5 +39,7 @@ The inspiration for Dink came from the realization that rising food prices dispr
 
 {% include gallery caption="This is a sample of the app." %}
 
-As a machine learning engineer on the Dink project, I developed a transformer-based Bert model to automatically classify user purchases into various categories, eliminating the need for manual data entry. This allows for a seamless, automated data stream that improves overall financial management.
+As a co-founder of Dink, I played a significant role in creating the app. I collaborated with my team to develop the machine learning tools and implement data insights and visualization. I contributed to the development process and worked on ongoing management and growth of the app. Additionally, I lead the developed of a transformer-based Bert model to automatically classify user purchases into various categories, eliminating the need for manual data entry. This allows for a seamless, automated data stream that improves overall financial management.
+
+
 
