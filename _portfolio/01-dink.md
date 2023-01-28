@@ -1,6 +1,6 @@
 ---
 title: "Dink - The financial food solution"
-excerpt: "Created by five ambitious KTH students who had a vision to revolutionize finance, Dink takes the power and control of your finances away from the banks, and puts it – literally – in your hands! 👐"
+excerpt: "Created by five ambitious KTH students who had a vision to minimize your expenditures to the maximum ! 👐"
 header:
   image: /assets/images/dink_front.png
   teaser: assets/images/dink_front.png
@@ -8,7 +8,7 @@ sidebar:
   - title: "Role"
     text: "Co-founder / Machine Learning Engineer"
   - title: "Responsibilities"
-    text: "Creating the classification model to streamline the process from reciept to insights."
+    text: "I collaborated with my team to develop a user-friendly financial management app that makes a difference in users' lives, by implementing transformer-based Bert model and data insights and visualization."
   - title: "URL"
   - text: "https://dink.eu.pythonanywhere.com/"
 gallery:
