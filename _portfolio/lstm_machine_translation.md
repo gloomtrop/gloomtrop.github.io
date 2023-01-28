@@ -191,7 +191,7 @@ distribution(input_sentences, output_sentences)
 ```
 
 
-![png](assets/images/lstm_machine_translation_15_0.png)
+![png](/assets/images/lstm_machine_translation_15_0.png)
 
 
 ### Dictionaries
@@ -225,11 +225,11 @@ distribution(input_test, output_test)
 
 
 
-![png](assets/images/lstm_machine_translation_20_1.png)
+![png](/assets/images/lstm_machine_translation_20_1.png)
 
 
 
-![png](assets/images/lstm_machine_translation_20_2.png)
+![png](/assets/images/lstm_machine_translation_20_2.png)
 
 
 #### **Parametrar för träning**
@@ -504,7 +504,7 @@ plt.savefig("LR001K50kU128B256ACC")
 ```
 
 
-![png](assets/images/lstm_machine_translation_35_0.png)
+![png](/assets/images/lstm_machine_translation_35_0.png)
 
 
 
@@ -524,7 +524,7 @@ plt.savefig("LR001K50kU128B256LOSS")
 ```
 
 
-![png](assets/images/lstm_machine_translation_36_0.png)
+![png](/assets/images/lstm_machine_translation_36_0.png)
 
 
 
