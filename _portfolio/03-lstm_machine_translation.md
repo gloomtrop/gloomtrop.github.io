@@ -24,22 +24,22 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-### Beskrivning hur koden körs
+# Beskrivning hur koden körs
 
-##### **1. Importerad data** 
+## **1. Importerad data** 
  - FastText för ordvektorer: https://fasttext.cc/docs/en/crawl-vectors.html
  - Litet Eng-Fra korpus: https://www.manythings.org/anki/
  
-##### **2. Nedladdad data**
+## **2. Nedladdad data**
  - Vikter för LSTM Encoder - Decoder nätverk för units = 128
 
-##### **3. Importerade bibliotek**
+## **3. Importerade bibliotek**
  - Keras
  - Pandas
  - Numpy
  - Matplotlib
 
-##### **4. Struktur av kod**
+## **4. Struktur av kod**
 
  1. Rensa text och dela upp engelska och franska meningar
  2. Undersök struktur på data så som max längd på mening, antal unika ord (kommer användas vid träning)
@@ -50,7 +50,7 @@ gallery:
  6. Skapa modell för prediktion/interferens och ladda upp vikter från träning
  7. Generera meningar rekursivt med interferens modellen
 
-### Ord Embedding från FastText 
+## Ord Embedding från FastText 
 
 
 ```python
@@ -67,7 +67,7 @@ ft_fra = fasttext.load_model("cc.fr.300.bin")
     Warning : `load_model` does not return WordVectorModel or SupervisedModel any more, but a `FastText` object which is very similar.
 
 
-## Importerade bibliotek
+# Importerade bibliotek
 
 
 ```python
@@ -92,7 +92,7 @@ from unicodedata import normalize
     Using TensorFlow backend.
 
 
-## Preprocess
+# Preprocess
 
 Rensa data från antingen fra2.txt. Skapar listor med meningar för båda språk samt två vokabulär med unika ord.
 
@@ -143,7 +143,7 @@ input_sentences, output_sentences, input_vocab, output_vocab = preprocess(file_i
 
 ```
 
-### Undersöker datans struktur för träning
+## Undersöker datans struktur för träning
 
 Dessa parametrar krävs för att kunna utföra träningen. Man kommer behövs skapa vektorer med lika stor längd vilket kommer vara max längden på meningarna i båda korpus.
 
@@ -170,7 +170,7 @@ print("The longest French sentence is:", max_output_sentence_size)
     The longest French sentence is: 16
 
 
-#### Distribution av längden på meningarna 
+## Distribution av längden på meningarna 
 
 
 ```python
@@ -195,7 +195,7 @@ distribution(input_sentences, output_sentences)
 ![png](/assets/images/lstm_machine_translation_15_0.png)
 
 
-### Dictionaries
+## Dictionaries
 
 Skapar två dictionaries för att kunna hämta vilket ord har vilket index. Varför i+1 används är för att 0 kommer anses som padding i ett senare skede.
 
@@ -208,7 +208,7 @@ input_idx2word = dict([(i, word) for word, i in input_word2idx.items()])
 output_idx2word = dict([(i, word) for word, i in output_word2idx.items()])
 ```
 
-#### Träning/Test delning
+## Träning/Test delning
 
 
 ```python
@@ -233,7 +233,7 @@ distribution(input_test, output_test)
 ![png](/assets/images/lstm_machine_translation_20_2.png)
 
 
-#### **Parametrar för träning**
+## **Parametrar för träning**
 
 
 ```python
@@ -245,7 +245,7 @@ NUM_HIDDEN_UNITS = 128
 EMBEDDING_SIZE = 300
 ```
 
-### Generator-funktion för att generera batch
+## Generator-funktion för att generera batch
 
 Skapar 3 matriser, 2 är för kodnings input & avkodnings input. Den tredje är skiftat så att <SOS> inte tas med för att kunna använda Teacher Forcing så att träningen går snabbare.
 
@@ -292,7 +292,7 @@ def batch_generator(X, y, batch_size, index = None):
                 yield([encoder_input, decoder_input], decoder_output)
 ```
 
-#### Skapa embedding matris för input
+## Skapa embedding matris för input
 
 
 ```python
@@ -314,7 +314,7 @@ print(embedding_matrix_output.shape)
     (12613, 300)
 
 
-### Encoder - Decoder struktur
+# Encoder - Decoder struktur
 **Encoder**
 1. Ett Input lager för Encoder,kopplat till E2. Dimension{max_in_sen}
 2. Embedding lager för Encoder, kopplat till E3.
@@ -329,7 +329,7 @@ print(embedding_matrix_output.shape)
 
 
 ```python
-#Encoder Architecture
+##Encoder Architecture
 
 encoder_input_layer = Input(shape=(None,))
 embedding_encoder_layer = Embedding(num_input_words, 
@@ -346,7 +346,7 @@ encoder_outputs, hidden_state, cell_state = encoder_lstm_layer(encoder_embedding
 encoder_states = [hidden_state, cell_state] 
 
 
-#Decoder Architecture
+##Decoder Architecture
 decoder_input_layer = Input(shape=(None,))
 embedding_decoder_layer = Embedding(num_output_words, 
                           EMBEDDING_SIZE, 
@@ -375,7 +375,7 @@ opt = keras.optimizers.Adam(learning_rate=0.01)
 model.compile(optimizer= opt, loss="categorical_crossentropy", metrics=["accuracy"])
 ```
 
-### Träning av algoritm
+# Träning av algoritm
 
 
 ```python
@@ -489,7 +489,7 @@ history = model.fit(batch_generator(input_training, output_training, batch_size 
     156/156 [==============================] - 108s 694ms/step - loss: 0.1212 - accuracy: 0.7346 - val_loss: 0.9149 - val_accuracy: 0.4921
 
 
-### Plottning av modellens säkerhet och förlust
+## Plottning av modellens säkerhet och förlust
 
 
 ```python
@@ -532,7 +532,7 @@ plt.savefig("LR001K50kU128B256LOSS")
     <Figure size 432x288 with 0 Axes>
 
 
-## Inference modellen
+# Inference modellen
 
 >**Här görs två nya modeller med dem vikter som har tränats tidigare. En som är kodaren och en som är avkodaren. Kodaren är endast tillför att förse avkodaren med initiala tillstånden c & h. Resten sköter avkodaren som helt enkelt arbetar rekursivt för att få ut en slutlig mening.**
 
@@ -600,7 +600,7 @@ def decode_sequence(input_seq):
 
 ```
 
-### Funktion för att generera kodning-matris för godtycklig engelsk mening
+## Funktion för att generera kodning-matris för godtycklig engelsk mening
 
 
 ```python
@@ -612,7 +612,7 @@ def new_sentence(input_sentence):
     return encoder_input
 ```
 
-#### Översätta ny mening
+## Översätta ny mening
 >**Här behöver man skriva in en mening på engelska. Därefter kan man se hur bra modeller är i jämförelse
 med riktiga översättningen**
 
@@ -646,7 +646,7 @@ print("Franska översatta mening:", decoded_sentence)
     Franska översatta mening:  jaime le fromage
 
 
-#### Översätta mening från träningsdata
+## Översätta mening från träningsdata
 >**Här generas 10 slumpartade meningar från träningskorpuset för att identifiera hur bra modellen tränades**
 
 
