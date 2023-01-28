@@ -29,7 +29,7 @@ gallery:
     image_path: assets/images/screenshot-6.png
     alt: "placeholder image 6"
   - url: /assets/images/screenshot-7.png
-    image_path: assets/images/uscreenshot-7.png
+    image_path: assets/images/screenshot-7.png
     alt: "placeholder image 7"
     
 ---
