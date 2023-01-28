@@ -2,8 +2,8 @@
 title: "Dink - The financial food solution"
 excerpt: "Created by five ambitious KTH students who had a vision to revolutionize finance, Dink takes the power and control of your finances away from the banks, and puts it – literally – in your hands! 👐"
 header:
-  image: /assets/images/unsplash-gallery-image-2.jpg
-  teaser: assets/images/unsplash-gallery-image-2-th.jpg
+  image: /assets/images/dink_front.png
+  teaser: assets/images/dink_front.png
 sidebar:
   - title: "Role"
     text: "Co-founder / Machine Learning Engineer"
@@ -25,7 +25,7 @@ gallery:
   - url: /assets/images/screenshot-5.png
     image_path: assets/images/screenshot-5.png
     alt: "placeholder image 5"
-   - url: /assets/images/screenshot-6.png
+  - url: /assets/images/screenshot-6.png
     image_path: assets/images/screenshot-6.png
     alt: "placeholder image 6"
   - url: /assets/images/screenshot-7.png
