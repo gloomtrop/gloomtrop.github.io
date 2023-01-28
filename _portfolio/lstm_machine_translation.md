@@ -1,3 +1,26 @@
+---
+title: "LSTM Decoder-Encoder Language model"
+excerpt: "Project from the KTH course Language Engineering (in Swedish)"
+header:
+  image: /assets/images/seq2seq.svg
+  teaser: assets/images/seq2seq.svg
+sidebar:
+  - title: "Role"
+    text: "Student"
+  - title: "Responsibilities"
+    text: "Creating a machine translation model to translate english to french using LSTMs."
+gallery:
+  - url: /assets/images/unsplash-gallery-image-1.jpg
+    image_path: assets/images/unsplash-gallery-image-1-th.jpg
+    alt: "placeholder image 1"
+  - url: /assets/images/unsplash-gallery-image-2.jpg
+    image_path: assets/images/unsplash-gallery-image-2-th.jpg
+    alt: "placeholder image 2"
+  - url: /assets/images/unsplash-gallery-image-3.jpg
+    image_path: assets/images/unsplash-gallery-image-3-th.jpg
+    alt: "placeholder image 3"
+---
+
 # LSTM Decoder-Encoder modell
 
 ### Beskrivning hur koden körs
@@ -168,7 +191,7 @@ distribution(input_sentences, output_sentences)
 ```
 
 
-![png](lstm_machine_translation_files/lstm_machine_translation_15_0.png)
+![png](assets/images/lstm_machine_translation_15_0.png)
 
 
 ### Dictionaries
@@ -202,11 +225,11 @@ distribution(input_test, output_test)
 
 
 
-![png](lstm_machine_translation_files/lstm_machine_translation_20_1.png)
+![png](assets/images/lstm_machine_translation_20_1.png)
 
 
 
-![png](lstm_machine_translation_files/lstm_machine_translation_20_2.png)
+![png](assets/images/lstm_machine_translation_20_2.png)
 
 
 #### **Parametrar för träning**
@@ -481,7 +504,7 @@ plt.savefig("LR001K50kU128B256ACC")
 ```
 
 
-![png](lstm_machine_translation_files/lstm_machine_translation_35_0.png)
+![png](assets/images/lstm_machine_translation_35_0.png)
 
 
 
@@ -501,7 +524,7 @@ plt.savefig("LR001K50kU128B256LOSS")
 ```
 
 
-![png](lstm_machine_translation_files/lstm_machine_translation_36_0.png)
+![png](assets/images/lstm_machine_translation_36_0.png)
 
 
 
