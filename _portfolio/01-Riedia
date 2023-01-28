@@ -2,8 +2,8 @@
 title: "News Recommendation system at Riedia"
 excerpt: ""
 header:
-  image: /assets/images/riedia_front.png
-  teaser: assets/images/riedia_front.png
+  image: /assets/images/riedia_images/riedia_front.png
+  teaser: assets/images/riedia_images/riedia_front.png
 sidebar:
   - title: "Role"
     text: "Machine Learning Engineer"
@@ -21,5 +21,13 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-![alt]({{ site.url }}{{ site.baseurl }}/assets/images/filename.jpg)
-
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/Namnlös.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/model1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/model2.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/leaderboard.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/dataset.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/results1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/results2.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/development.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/bandit1.png)
+![alt]({{ site.url }}{{ site.baseurl }}/assets/images/riedia_images/bandit2.png)
