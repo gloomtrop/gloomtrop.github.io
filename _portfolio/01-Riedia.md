@@ -7,7 +7,7 @@ toc_icon: "cog"
 header:
   overlay_image: /assets/images/riedia_images/riedia_front.png
   teaser: assets/images/riedia_images/riedia_front.png
-  overlay_color: "#fff"
+  overlay_color: "#000"
   actions:
     - label: "View website"
       url: "https://www.riedia.com/"
