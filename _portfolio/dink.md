@@ -13,35 +13,24 @@ gallery:
   - url: /assets/images/screenshot-1.png
     image_path: assets/images/screenshot-1.png
     alt: "placeholder image 1"
-    layout: "third"
   - url: /assets/images/screenshot-2.png
     image_path: assets/images/screenshot-2.png
     alt: "placeholder image 2"
-    layout: "third"
-  - url: /assets/images/screenshot-3.png
-    image_path: assets/images/screenshot-3.png
-    alt: "placeholder image 3"
-    layout: "third"
   - url: /assets/images/screenshot-4.png
     image_path: assets/images/screenshot-4.png
     alt: "placeholder image 4"
-    layout: "third"
-  - url: /assets/images/screenshot-5.png
-    image_path: assets/images/screenshot-5.png
-    alt: "placeholder image 5"
-    layout: "third"
   - url: /assets/images/screenshot-6.png
     image_path: assets/images/screenshot-6.png
     alt: "placeholder image 6"
-    layout: "third"
   - url: /assets/images/screenshot-7.png
     image_path: assets/images/screenshot-7.png
     alt: "placeholder image 7"
-    layout: "third"
     
 ---
 
 Dink is a financial app that helps users achieve spending goals by providing an intuitive drill-down menu for analysis down to the penny. With a modern, visually pleasing design, Dink makes managing finances fun and easy. Users can choose between a suggested timeline or create their own, and find all useful information at their fingertips. Dink also utilizes powerful AI to assist users in gaining control over their finances.
+
+The inspiration for Dink came from the realization that rising food prices disproportionately impact low-income families and students. Our goal is to use visualization and data insights to empower these individuals to make more informed spending decisions and ultimately save money on their food expenses.
 
 {% include gallery caption="This is a sample of the app." %}
 
