@@ -9,6 +9,8 @@ sidebar:
     text: "Co-founder / Machine Learning Engineer"
   - title: "Responsibilities"
     text: "Creating the classification model to streamline the process from reciept to insights."
+  - title: "URL"
+  - text: "https://dink.eu.pythonanywhere.com/"
 gallery:
   - url: /assets/images/screenshot-1.png
     image_path: assets/images/screenshot-1.png
