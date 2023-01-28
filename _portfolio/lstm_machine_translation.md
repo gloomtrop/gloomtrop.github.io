@@ -21,8 +21,6 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-# LSTM Decoder-Encoder modell
-
 ### Beskrivning hur koden körs
 
 ##### **1. Importerad data** 
