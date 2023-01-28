@@ -702,9 +702,3 @@ for i in random.sample(range(0, len(input_training)-1), 10):
     Fransk mening: ['<SOS>', 'prenez', 'place', '<EOS>']
     Förutspådd mening:  prends place
     
-
-
-
-```python
-
-```
