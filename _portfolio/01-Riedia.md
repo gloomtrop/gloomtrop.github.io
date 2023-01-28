@@ -26,29 +26,29 @@ gallery:
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
     alt: "placeholder image 3"
 ---
-# The fundamental types of recommender systems
+## The fundamental types of recommender systems
 ![png](/assets/images/riedia_images/recommender.png)
 
-# New era of recommender systems leverage the dynamic nature of Deep learning
+## New era of recommender systems leverage the dynamic nature of Deep learning
 ![png](/assets/images/riedia_images/model1.png)
 
-# ”Neural News Recommendation with Multi-Head Self-Attention”
+## ”Neural News Recommendation with Multi-Head Self-Attention”
 ![png](/assets/images/riedia_images/model2.png)
 
-#The MIND competition
+## The MIND competition
 ![png](/assets/images/riedia_images/leaderboard.png)
 ![png](/assets/images/riedia_images/dataset.png)
 
-# Results
-## Measuring of accuracy
+## Results
+### Measuring of accuracy
 ![png](/assets/images/riedia_images/results1.png)
 
-## Calculating the latency using GPU and CPU for interference
+### Calculating the latency using GPU and CPU for interference
 ![png](/assets/images/riedia_images/results2.png)
 
-# Next step
+## Next step
 ![png](/assets/images/riedia_images/development.png)
 
-# Possible use-case for Bandits
+## Possible use-case for Bandits
 ![png](/assets/images/riedia_images/bandit1.png)
 ![jpg](/assets/images/riedia_images/bandit2.jpg)
