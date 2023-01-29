@@ -13,13 +13,17 @@ sidebar:
   - title: "Responsibilities"
     text: "Contributing in making the ML model used to explain professional pianists different style and what they can
 improvement at."
-gallery:
+gallery1:
   - url: /assets/images/piano_ai/data.png
     image_path: assets/images/piano_ai/data.png
     alt: "placeholder image 1"
   - url: /assets/images/piano_ai/model.png
     image_path: assets/images/piano_ai/model.png
     alt: "placeholder image 2"
+gallery2:
+  - url: /assets/images/piano_ai/outcome.png
+    image_path: assets/images/piano_ai/outcome.png
+    alt: "placeholder image 3"
     
 ---
 
@@ -31,7 +35,7 @@ The proposed application aims to assist piano teachers in evaluating their stude
 
 I joined an open-source project led by my professor from the Explainable AI course at Seoul National University. The team had already established a clear roadmap for the project and I was excited to be a part of it. During weekly meetings, we discussed progress and strategies for all aspects of the project. I worked closely with another ML engineer to develop the model architecture necessary for providing explanations. Additionally, data was being collected through an outsourcing company, with new data arriving weekly consisting of tagged piano performances and ratings for 25 categories that were deemed to represent a piano performer's playing style. The final model we developed was a RNN-based model as shown below.
 
-{% include gallery %}
+{% include gallery1 %}
 
 ## Model and performance
 
@@ -41,6 +45,7 @@ The proposed method involves preprocessing recorded piano performances to align 
 
 To better visualise this the team opted into a multidimensional display where the piano performer could see how much their play deviated from the prefered.
 
+{% include gallery2 %}
 ![png](/assets/images/piano_ai/outcome.png)
 
 
