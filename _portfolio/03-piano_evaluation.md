@@ -5,7 +5,7 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 header:
-  image: /assets/images/pinao_ai/piano_ai.jpeg
+  image: /assets/images/piano_ai/piano_ai.jpeg
   teaser: assets/images/piano_ai/piano_ai.jpeg
 sidebar:
   - title: "Role"
