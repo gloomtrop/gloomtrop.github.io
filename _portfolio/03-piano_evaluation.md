@@ -14,7 +14,7 @@ sidebar:
     text: "Contributing in making the ML model used to explain professional pianists different style and what they can
 improvement at."
   - title: "URL"
-  - text: ["https://sites.google.com/view/appliedmllab/projectssubpages/music?authuser=0"](https://sites.google.com/view/appliedmllab/projectssubpages/music?authuser=0)
+  - text: [https://sites.google.com/view/appliedmllab/projectssubpages/music?authuser=0](https://sites.google.com/view/appliedmllab/projectssubpages/music?authuser=0)
 gallery:
   - url: /assets/images/screenshot-1.png
     image_path: assets/images/screenshot-1.png
