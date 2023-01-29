@@ -45,8 +45,9 @@ The proposed method involves preprocessing recorded piano performances to align 
 
 To better visualise this the team opted into a multidimensional display where the piano performer could see how much their play deviated from the prefered.
 
-{% include gallery id="gallery1" %}
-![png](/assets/images/piano_ai/outcome.png)
+{% include gallery id="gallery2" %}
+
+## Reflection
 
 
 
