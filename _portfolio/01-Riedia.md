@@ -53,7 +53,7 @@ The dataset used to train the NRSM model where crawled data from Microsoft News 
 Here is a sample of the data:
 <br>
 ### News data
-This file contains news information including newsid, category, subcatgory, news title, news abstarct, news url and entities in news title, entities in news abstarct.
+This file contains news information including newsid, category, subcatgory, news title, news abstarct, news url and entities in news title, entities in news abstract.
 "One simple example:
 
 `N46466\tlifestyle\tlifestyleroyals\tThe Brands Queen Elizabeth, Prince Charles, and Prince Philip Swear By\tShop the notebooks, jackets, and more that the royals can't live without.\thttps://www.msn.com/en-us/lifestyle/lifestyleroyals/the-brands-queen-elizabeth,-prince-charles,-and-prince-philip-swear-by/ss-AAGH0ET?ocid=chopendata\t[{\"Label\": \"Prince Philip, Duke of Edinburgh\", \"Type\": \"P\", \"WikidataId\": \"Q80976\", \"Confidence\": 1.0, \"OccurrenceOffsets\": [48], \"SurfaceForms\": [\"Prince Philip\"]}, {\"Label\": \"Charles, Prince of Wales\", \"Type\": \"P\", \"WikidataId\": \"Q43274\", \"Confidence\": 1.0, \"OccurrenceOffsets\": [28], \"SurfaceForms\": [\"Prince Charles\"]}, {\"Label\": \"Elizabeth II\", \"Type\": \"P\", \"WikidataId\": \"Q9682\", \"Confidence\": 0.97, \"OccurrenceOffsets\": [11], \"SurfaceForms\": [\"Queen Elizabeth\"]}]\t[]`
