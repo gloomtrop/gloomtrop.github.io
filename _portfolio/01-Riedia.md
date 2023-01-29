@@ -42,7 +42,10 @@ One type of news recommender system proposed by research is a click predictor. P
 
 ![png](/assets/images/riedia_images/model2.png)
 
-The model which was implemented was based on the paper ["Neural News Recommendation with Multi-Head Self-Attention"](https://aclanthology.org/D19-1671/). 
+The model which was implemented was based on the paper ["Neural News Recommendation with Multi-Head Self-Attention"](https://aclanthology.org/D19-1671/). In this paper, a neural news recommendation approach called NRMS is proposed. The approach uses multi-head self-attention to model the interactions between words in news titles to learn news representations, and uses multi-head self-attention to capture the relatedness between news and user representations learned from browsed news. Additive attention is also applied to select important words and news. \
+
+More specifically, the NRMS approach for news recommendation includes three modules: a news encoder, a user encoder, and a click predictor. The news encoder is used to learn news representations from news titles, and contains three layers: word embedding, word-level multi-head self-attention network, and additive word attention network. The word embedding layer converts a news title from a sequence of words into a sequence of low-dimensional embedding vectors. The self-attention network captures interactions between words and learns contextual representations of words. Additionally, the user encoder module is a system that learns representations of users from the news articles they have browsed. It contains two layers. The first layer is a multi-head self-attention network that captures the interactions between related news articles browsed by the same user. The second layer is an additive news attention network that selects important news to learn more informative user representations. The system uses the relative importance of interactions between different news articles and selects the most informative news to model user interest. Lastly, the system predicts if the candidate news article is interesting or not using the dot-product between the user encoded embedding and the embedding of the candidate. 
+
 
 
 ## The MIND dataset
