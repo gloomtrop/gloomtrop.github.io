@@ -17,7 +17,7 @@ gallery:
   - url: /assets/images/piano_ai/data.png
     image_path: assets/images/piano_ai/data.png
     alt: "placeholder image 1"
-  - url: /assets/images/piano_ai/.png
+  - url: /assets/images/piano_ai/model.png
     image_path: assets/images/piano_ai/model.png
     alt: "placeholder image 2"
     
