@@ -43,7 +43,7 @@ The proposed method involves preprocessing recorded piano performances to align 
 
 ## Outcome
 
-To better visualise this the team opted into a multidimensional display where the piano performer could see how much their play deviated from the prefered.
+The team showed that it is possible to play whilst visualising the explaination on a monitor. To better visualise this the team opted into a multidimensional display where the piano performer could see how much their play deviated from the prefered. I am very proad of what the end-result became and the team did an amazing. 
 
 {% include gallery id="gallery2" %}
 
