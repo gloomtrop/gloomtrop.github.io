@@ -14,7 +14,6 @@ sidebar:
     text: "Contributing in making the ML model used to explain professional pianists different style and what they can
   - title: "URL"
     text: "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-301247"
-improvement at."
 gallery1:
   - url: /assets/images/afry/diagram1.png
     image_path: assets/images/afry/diagram1.png
