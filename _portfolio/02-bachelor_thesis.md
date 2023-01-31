@@ -1,5 +1,5 @@
 ---
-title: "Bachelor thesis - Predicting CPU utlization from Azure Cloud"
+title: "Bachelor thesis - Predicting CPU utilization from Azure Cloud"
 excerpt: "Research and developed a machine learning model to predict CPU utlization for AFRY AB."
 toc: true
 toc_label: "My Table of Contents"
