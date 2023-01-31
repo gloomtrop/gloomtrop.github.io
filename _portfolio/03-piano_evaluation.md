@@ -49,6 +49,7 @@ The team showed that it is possible to play whilst visualising the explaination 
 
 ## Reflection
 
+Being part of this incredible interdisciplinary team was an experience in itself. Collaborating between computer scientist to musicians creates a dynamic creativity that is hard to match. Furthermore, the need for tools to help createurs like piano performers are much appreciated and more is needed. This project demonstrates that it is possible. However, the project had its clear limitations, both in the technical aspect and unreasonable demands from above. Firstly, before I had joined much of the tagging had started. The question if it is possible the distinguish these 25 classes where not made. This resulted in poor tagging with almost random predictability. This underlying issue made it both dofficult for the model to generalize while it also creates wrong explanations. The second issue was that there was a constant change in demands which made it increasingly frustrating to accept. Therefore, I unfortunately decided to depoart early from the project. In the end, I learned a lot in the realm of signal processing and what machine learning can provide to create next generation tools for creativity and learning. 🎹🕺
 
 
 
