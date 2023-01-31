@@ -5,7 +5,7 @@ toc: true
 toc_label: "My Table of Contents"
 toc_icon: "cog"
 header:
-  image: /assets/images/afry/afry_logo.jpeg
+  image: /assets/images/afry/afry_logo1.jpeg
   teaser: assets/images/afry/afry_logo.jpeg
 sidebar:
   - title: "Role"
