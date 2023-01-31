@@ -11,7 +11,7 @@ sidebar:
   - title: "Role"
     text: "Machine Learning Contributor"
   - title: "Responsibilities"
-    text: "Contributing in making the ML model used to explain professional pianists different style and what they can
+    text: "Contributing in making the ML model used to explain professional pianists different style and what they can..."
   - title: "URL"
     text: "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-301247"
 gallery1:
