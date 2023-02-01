@@ -38,7 +38,11 @@ In this paper, I aimed to address the issue of fluctuating CPU utilization in cl
 
 {% include gallery id="gallery1" %}
 
+## Model
+
 {% include gallery id="gallery2" %}
+
+## Results
 
 {% include gallery id="gallery3" %}
 
