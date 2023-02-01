@@ -9,9 +9,9 @@ header:
   teaser: assets/images/afry/afry_logo.jpeg
 sidebar:
   - title: "Role"
-    text: "Machine Learning Contributor"
+    text: "Researcher"
   - title: "Responsibilities"
-    text: "Contributing in making the ML model used to explain professional pianists different style and what they can..."
+    text: "Implemented with my co-author a machine learning model to predict CPU utilizaton."
   - title: "URL"
     text: "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-301247"
 gallery1:
@@ -32,8 +32,14 @@ gallery3:
     
 ---
 
+## Overview
+
+In this paper, I aimed to address the issue of fluctuating CPU utilization in cloud computing and its impact on cost and the environment. To mitigate this problem, I proposed the use of a long short-term memory (LSTM) machine learning model to predict future utilization. I believed that by predicting utilization up to 30 minutes in advance, companies could scale their capacity just in time and avoid unnecessary cost and harm to the environment. The study was divided into two parts: first, I compared the performance of the LSTM model with a state-of-the-art model in one-step predictions, and second, I evaluated the accuracy of the LSTM in making predictions up to 30 minutes into the future. To ensure objective analysis, I compared the LSTM with a standard RNN, which had a similar algorithmic structure. In conclusion, my results suggested that the LSTM model may have been a valuable tool for companies using public cloud to reduce cost and environmental impact.
+
 {% include gallery id="gallery1" %}
 
 {% include gallery id="gallery2" %}
 
 {% include gallery id="gallery3" %}
+
+## Reflection
