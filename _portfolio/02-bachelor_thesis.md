@@ -18,14 +18,22 @@ gallery1:
   - url: /assets/images/afry/diagram1.png
     image_path: assets/images/afry/diagram1.png
     alt: "placeholder image 1"
-  - url: /assets/images/afry/diagram2.png
-    image_path: assets/images/afry/diagram2.png
+  - url: /assets/images/afry/lstm.png
+    image_path: assets/images/afry/lstm.png
     alt: "placeholder image 2"
 gallery2:
-  - url: /assets/images/piano_ai/outcome.png
-    image_path: assets/images/piano_ai/outcome.png
+  - url: /assets/images/afry/pvalue.png
+    image_path: assets/images/afry/pvalue.png
+    alt: "placeholder image 3"
+gallery3:
+  - url: /assets/images/afry/diagram2.png
+    image_path: assets/images/afry/diagram2.png
     alt: "placeholder image 3"
     
 ---
 
 {% include gallery id="gallery1" %}
+
+{% include gallery id="gallery2" %}
+
+{% include gallery id="gallery3" %}
